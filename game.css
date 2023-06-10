@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game_board{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.name{
+    width: 40vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.player{
+    width: 35vw;
+    height: 45vh;
+    margin: auto 0;
+}
+
+.computer{
+    width: 35vw;
+    height: 45vh;
+    margin: auto 0;
+}
+
+.score{
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.name_board{
+    margin: 8px auto;
+}
+
+#imgChange_comp{
+    transform: scaleX(-1);
+}
+
+#player_score{
+    width: 15vw;
+    height: 15vh;
+}
+
+#computer_score{
+    width: 15vw;
+    height: 15vh;
+}
+
+#tie{
+    width: 15vw;
+    height: 15vh;
+}
+
+p{
+    font-size: 50px;
+    margin: 3vh 0px;
+    text-align: center;
+}
+
+button{
+    font-size: 25px;
+    margin: 5vh 4vw;
+    cursor: pointer;
+}
+
+img{
+    width: 60%;
+    margin: 5% 20%;
+}
+
+h2{
+    padding: 20vh 0;
+}
+
+h1{
+    text-align: center;
+}

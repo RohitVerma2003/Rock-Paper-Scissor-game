@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+
+<body onclick="preloadImages()">
+    <h1>ROCK, PAPER AND SCISSORS</h1>
+    <div class="game_board">
+        <div class="player">
+            <img src="images/rock.png" alt="" id="imgChange" onclick="imageChange()">
+        </div>
+        <div class="">
+            <h2>VS</h2>
+        </div>
+        <div class="computer">
+            <img src="images/rock.png" alt=""id="imgChange_comp">
+        </div>
+    </div>
+    <div class="name">
+        <div class="name_board">
+            YOU
+        </div>
+        <div class="name_board">
+            TIE
+        </div>
+        <div class="name_board">
+            COM
+        </div>
+    </div>
+    <div class="score">
+        <div id="player_score">
+            <p>0</p>
+        </div>
+        <div id="tie">
+            <p>0</p>
+        </div>
+        <div id="computer_score">
+            <p>0</p>
+        </div>
+    </div>
+    <div class="score">
+        <div id="player_score">
+            <button href="#" onclick="start()">Shoot</button>
+        </div>
+        <div id="computer_score">
+            <button href="#" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
