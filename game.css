@@ -45,11 +45,11 @@ body{
 }
 
 .score_shoot{
-    width: 40vw;
-    height: 15vh;
+    width: 80vw;
+    height: auto;
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    margin: 5vh auto;
 }
 
 .name_board{
@@ -83,7 +83,7 @@ p{
 
 button{
     font-size: 25px;
-    margin: 13% 30%;
+    /* margin: 13% 30%; */
     font-family: 'Signika Negative', sans-serif;
     cursor: pointer;
 }
@@ -132,6 +132,7 @@ h1{
     #player_score{
         width: 26vw;
         height: auto;
+        position: relative;
     }
     
     #computer_score{
@@ -146,7 +147,7 @@ h1{
 
     button{
         font-size: 25px;
-        margin: 0px 13px;
+        margin: 0ox auto;
         cursor: pointer;
     }
 
@@ -154,7 +155,7 @@ h1{
         width: 100vw;
         height: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin: 5vh auto;
     }
   }
